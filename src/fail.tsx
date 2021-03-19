@@ -12,7 +12,7 @@ export const Component = Vue.extend({
      * Color
      * @values red, green
      */
-    intent: {
+    color: {
       required: true,
       type: String,
       validator: (value: string) => ["red", "green"].includes(value)
